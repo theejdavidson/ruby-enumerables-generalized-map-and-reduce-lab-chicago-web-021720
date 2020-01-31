@@ -13,10 +13,14 @@ def reduce(source_array, starting_point = nil)
   if starting_point
     num1 = starting_point
     i = 0 
-    while index < 
-  else
+    while index < source_array.length do
+      i += 1
+    end
     num1 = source_array[0]
     i = 1
+    while index < source_array.length do
+      i += 1
+    end
   end
     
   index = 0 
